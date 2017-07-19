@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single"
+    >
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home"/>
+    <item
+        android:id="@+id/nav_photos"
+        android:icon="@drawable/photos_icon"
+        android:title="@string/nav_photos"/>
+    <item
+        android:id="@+id/nav_movies"
+        android:icon="@drawable/movies_icon"
+        android:title="@string/nav_movies"/>
+    <item
+        android:id="@+id/nav_notofications"
+        android:icon="@drawable/notification_icon"
+        android:title="@string/nav_notifications"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings"/>
+</group>
+
+
+        <item
+
+            android:icon="@drawable/more_icon"
+            android:title="others1">
+            <menu>
+                <item android:title="@string/nav_about_us"
+                    android:id="@+id/nav_about_us1"/>
+                <item android:title="@string/privacy_policy"
+                    android:id="@+id/nav_privacy_policy1"/>
+            </menu>
+
+        </item>
+        <item
+
+            android:icon="@drawable/more_icon"
+            android:title="others2">
+            <menu>
+                <item android:title="@string/nav_about_us"
+                    android:id="@+id/nav_about_us2"/>
+                <item android:title="@string/privacy_policy"
+                    android:id="@+id/nav_privacy_policy2"/>
+            </menu>
+
+        </item>
+
+    <item
+        android:id="@+id/others"
+        android:icon="@drawable/more_icon"
+        android:title="others">
+        <menu>
+            <item android:title="@string/nav_about_us"
+                android:id="@+id/nav_about_us"/>
+            <item android:title="@string/privacy_policy"
+                android:id="@+id/nav_privacy_policy"/>
+        </menu>
+
+    </item>
+</menu>
