@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.activities.AnimationActivity">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="2000" >
+
+        <ImageView
+            android:src="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Hello"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:src="@drawable/images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="From"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:src="@drawable/downloadr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CoderzHeaven"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:src="@drawable/downloadrtr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Heaven of all working Codes"
+            android:textSize="26sp" />
+    </ViewFlipper>
+    <TextView
+
+        android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+        android:gravity="center"
+        android:id="@+id/tv_listpopupwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:text="Select the Animation to Apply" />
+
+
+</LinearLayout>

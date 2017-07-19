@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/sixteen_dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.activities.EffectsActivity">
+
+    <Button
+        android:id="@+id/btn_ripple"
+        android:text="Ripple Effect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/btn_ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/text"
+            android:lineSpacingMultiplier="1.2"
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

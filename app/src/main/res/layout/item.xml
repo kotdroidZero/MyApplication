@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_margin="2dp"
+    android:background="@android:color/darker_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:hint="date"
+        android:id="@+id/tv_date"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_date"
+        android:id="@+id/iv_imageview"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

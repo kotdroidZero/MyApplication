@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginEnd="@dimen/sixteen_dp"
+    android:layout_marginStart="@dimen/sixteen_dp"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:gravity="center"
+        android:hint="name"
+
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:gravity="center"
+        android:hint="game"
+        android:id="@+id/et_game"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_marginTop="250dp"
+        android:text="Swipe or Submit"
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

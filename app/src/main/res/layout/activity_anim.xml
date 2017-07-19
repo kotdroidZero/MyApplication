@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/sixteen_dp"
+    android:layout_marginEnd="@dimen/sixteen_dp"
+    tools:context="com.example.user.myapplication.activities.AnimActivity">
+
+    <TextView
+        android:background="@drawable/ripple"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Fade In or Fade out"
+        android:id="@+id/tv_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/tv_textview"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Blink Animation"
+        android:id="@+id/tv_blink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/tv_blink"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Zoom in /Out Animation"
+        android:id="@+id/tv_zoomin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/tv_zoomin"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Rotate Animation"
+        android:id="@+id/tv_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/tv_rotate"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Move Animation"
+        android:id="@+id/tv_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/tv_move"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Slideup  Animation"
+        android:id="@+id/tv_slideup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:layout_below="@+id/tv_slideup"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Slidedown  Animation"
+        android:id="@+id/tv_slidedown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/thirty_two_dp"
+        android:layout_below="@+id/tv_slidedown"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/ripple"
+        android:text="Sequential Animation"
+        android:id="@+id/tv_sequential_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

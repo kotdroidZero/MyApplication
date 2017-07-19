@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text">Animations can add subtle visual cues that notify users about whats going on in your app and improve their mental model of your apps interface. Animations are especially useful when the screen changes state, such as when content loads or new actions become available. Animations can also add a polished look to your app, which gives your app a higher quality feel.
+
+Keep in mind though, that overusing animations or using them at the wrong time can be detrimental such as when they cause delays. This training class shows you how to implement some common types of animations that can increase usability and add flair without annoying your users.
+    Animations can add subtle visual cues that notify users about whats going on in your app and improve their mental model of your apps interface. Animations are especially useful when the screen changes state, such as when content loads or new actions become available. Animations can also add a polished look to your app, which gives your app a higher quality feel.
+
+Keep in mind though, that overusing animations or using them at the wrong time can be detrimental such as when they cause delays. This training class shows you how to implement some common types of animations that can increase usability and add flair without annoying your users
+    Animations can add subtle visual cues that notify users about whats going on in your app and improve their mental model of your apps interface. Animations are especially useful when the screen changes state, such as when content loads or new actions become available. Animations can also add a polished look to your app, which gives your app a higher quality feel.
+
+Keep in mind though, that overusing animations or using them at the wrong time can be detrimental such as when they cause delays. This training class shows you how to implement some common types of animations that can increase usability and add flair without annoying your users</string>
+    <string name="sign_in_text">SIGN IN</string>
+    <string name="or_signin_with">or signin with</string>
+    <string name="username">Username</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+</resources>
