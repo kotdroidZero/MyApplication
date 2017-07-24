@@ -22,7 +22,7 @@ import com.example.user.myapplication.fragments.MoviesFragment;
 import com.example.user.myapplication.fragments.NotificationsFragment;
 import com.example.user.myapplication.fragments.PhotosFragment;
 import com.example.user.myapplication.fragments.SettingFragment;
-import com.example.user.myapplication.helpers.GeneralFunctions;
+
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
