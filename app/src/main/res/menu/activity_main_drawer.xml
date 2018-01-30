@@ -24,42 +24,12 @@
         android:title="@string/nav_settings"/>
 </group>
 
-
-        <item
-
-            android:icon="@drawable/more_icon"
-            android:title="others1">
-            <menu>
-                <item android:title="@string/nav_about_us"
-                    android:id="@+id/nav_about_us1"/>
-                <item android:title="@string/privacy_policy"
-                    android:id="@+id/nav_privacy_policy1"/>
-            </menu>
-
-        </item>
-        <item
-
-            android:icon="@drawable/more_icon"
-            android:title="others2">
-            <menu>
-                <item android:title="@string/nav_about_us"
-                    android:id="@+id/nav_about_us2"/>
-                <item android:title="@string/privacy_policy"
-                    android:id="@+id/nav_privacy_policy2"/>
-            </menu>
-
-        </item>
-
-    <item
-        android:id="@+id/others"
-        android:icon="@drawable/more_icon"
-        android:title="others">
+    <item android:title="others">
         <menu>
             <item android:title="@string/nav_about_us"
                 android:id="@+id/nav_about_us"/>
             <item android:title="@string/privacy_policy"
                 android:id="@+id/nav_privacy_policy"/>
         </menu>
-
     </item>
 </menu>

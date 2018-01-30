@@ -21,9 +21,9 @@ import butterknife.ButterKnife;
 
 public class PaginationExample extends AppCompatActivity {
     PaginationAdapter adapter;
-    int count=1;
+
     List<PagingModel> list=new ArrayList<>();
-    @BindView(R.id.recyclerview)
+//    @BindView(R.id.recyclerview1)
     RecyclerView recyclerView;
     @BindView(R.id.swipe_refresh_layout)
     SwipeRefreshLayout swipeRefreshLayout;
@@ -32,15 +32,16 @@ public class PaginationExample extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagination_example);
         ButterKnife.bind(this);
+        recyclerView= (RecyclerView) findViewById(R.id.recyclerview1);
 
 
-        swipeRefreshLayout.setColorSchemeColors(Color.RED,Color.GREEN,Color.BLUE);
+        //swipeRefreshLayout.setColorSchemeColors(Color.RED,Color.GREEN,Color.BLUE);
         loadInitialData();
         final LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         adapter =new PaginationAdapter(list,this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
-        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+       /* swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
 
@@ -53,7 +54,7 @@ public class PaginationExample extends AppCompatActivity {
                     }
                 },2000);
             }
-        });
+        });*/
 
 //        for (int i=0;i<5;i++)
 //        {

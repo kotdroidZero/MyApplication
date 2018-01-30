@@ -4,6 +4,6 @@
 
     <item android:title="@string/action_logout"
         android:id="@+id/action_logout"
-        android:orderInCategory="500"
+        android:orderInCategory="100"
         app:showAsAction="never"/>
 </menu>

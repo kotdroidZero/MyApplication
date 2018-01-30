@@ -11,7 +11,8 @@
         <item name="android:windowFullscreen">true</item>
 
     </style>
-    <style name="AppTheme.Fullscren"/>
+
+    <style name="AppTheme.Fullscren" />
 
 
     <style name="TextLabel" parent="TextAppearance.AppCompat">
@@ -23,5 +24,9 @@
         <item name="colorControlNormal">@android:color/white</item>
         <item name="colorControlActivated">@color/colorAccent</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

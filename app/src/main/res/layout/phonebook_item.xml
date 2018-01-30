@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        app:cardElevation="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_weight="0"
+                android:id="@+id/iv_profile"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:gravity="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                    android:hint="Name"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:id="@+id/tv_phonenumber"
+                    android:gravity="center"
+                    android:hint="phonenumber"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:id="@+id/tv_lastcontacted"
+                    android:gravity="center"
+                    android:hint="last contacted"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
 
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 </LinearLayout>

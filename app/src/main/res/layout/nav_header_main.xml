@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-
+<RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
-    android:background="@drawable/side_nav_bar"
-    android:padding="@dimen/sixteen_dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="256dp">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:src="@mipmap/ic_launcher_round"
-         />
-
-    <TextView
-        android:textColor="@android:color/black"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:id="@+id/iv_header_bg"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Pushkar Srivastava"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:layout_height="match_parent" />
 
-    <TextView
-        android:textColor="@android:color/black"
-        android:id="@+id/textView"
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="pushkar.sri5888@gmailcom" />
+        android:layout_height="wrap_content">
 
+        <ImageView
 
-</LinearLayout>
+            android:backgroundTint="@color/colorWhite"
+            app:srcCompat="@drawable/images"
+            android:id="@+id/iv_profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+    </LinearLayout>
+
+</RelativeLayout>

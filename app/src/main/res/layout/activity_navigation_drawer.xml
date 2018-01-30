@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.user.myapplication.activities.NavigationDrawer">
+    <RelativeLayout
+        tools:context="com.example.user.myapplication.activities.NavigationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
 
-</android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/tv_textview"
+            android:text="hello world !"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+<fragment
+    android:id="@+id/navigation_fragment"
+    android:name="com.example.user.myapplication.fragments.NavigationDrawerFragment"
+    android:layout_gravity="left"
+    app:layout="@layout/fragment_navigation_drawer"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"/>
+</android.support.v4.widget.DrawerLayout>

@@ -5,4 +5,5 @@ package com.example.user.myapplication.interfaces;
  */
 
 public interface OnLoadFinished {
+    public void onLoadFinished();
 }

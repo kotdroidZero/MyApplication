@@ -9,6 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.user.myapplication.R;
+import com.example.user.myapplication.activities.PaginationExample;
 import com.example.user.myapplication.pojo.PagingModel;
 
 import java.util.List;
@@ -56,7 +57,7 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
             ((ItemHolder) holder).tvEmail.setText(list.get(position).emailId);
             ((ItemHolder) holder).tvName.setText(list.get(position).name);
         }
-       /* else if (holder instanceof LoaderHolder)
+        else if (holder instanceof LoaderHolder)
         {
             if (loading) {
                 ((LoaderHolder) holder).progressBar.setVisibility(View.VISIBLE);
@@ -80,13 +81,13 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                 setLoaded(false);
             }
 
-        }*/
+        }
     }
 
     @Override
     public int getItemCount() {
-        //return list.size()+1;
-        return  list.size();
+        return list.size()+1;
+      //  return  list.size();
     }
 
 
@@ -102,8 +103,8 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     public int getItemViewType(int position)
     {
         if (position==list.size()) {
-            //return LOADER;
-            return 89;
+            return LOADER;
+            //return 89;
         }
         else
             return ITEM;

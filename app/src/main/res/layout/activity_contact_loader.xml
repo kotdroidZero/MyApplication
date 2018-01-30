@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.user.myapplication.activities.ContactLoaderActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/tv_title"
+        android:text="My PhoneBook"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        android:id="@+id/iv_addontacts"
+        android:backgroundTint="@color/colorWhite"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_below="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

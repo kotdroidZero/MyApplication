@@ -3,6 +3,5 @@
     android:color="@android:color/holo_orange_dark"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@android:color/holo_blue_light"/>
 
 </ripple>
